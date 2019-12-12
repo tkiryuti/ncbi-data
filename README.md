@@ -11,7 +11,7 @@ Note: DRR, ERR, and SRR prefixes means submitted to different databases:  SRR to
 
 *__Output:__* tab-separated file with SRA accession, corresponding BioSample accession, and corresponding BioProject accession
 
-Example: the optional `|& tee "warning.txt"` shows missing accessions in stderr and stores them in "warning.txt". 
+Example: the optional `|& tee "warning.txt"` shows missing accessions in stderr and stores them in "warning.txt"
 ``` bash
 input="SRA-accessions.txt"
 output="extracted-acc.tsv"

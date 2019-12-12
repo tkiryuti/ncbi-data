@@ -6,11 +6,12 @@ Data extraction from NCBI based on Entrez Programming Utilities (https://www.ncb
 * BioSample database stores metadata about each sample
 * BioProject database stores information about research projects and links to data
 
-*__Input:__* list of SRA accessions
+*__Input:__* list of SRA accessions\
 Note: DRR, ERR, and SRR prefixes means submitted to different databases:  SRR to NCBI, ERR to EBI and DRR to DDBJ
 
 *__Output:__* tab-separated file with SRA accession, corresponding BioSample accession, and corresponding BioProject accession
 
+Example in which the optional `|& tee "warning.txt"` both shows warnings while running and stores them in a file "warning.txt": 
 ``` bash
 input="SRA-accessions.txt"
 output="extracted-acc.tsv"

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Converts data format of SRA run info
-file = "tmp/runinfo.tmp"
+file = "tmp-acc/runinfo.tmp"
 
 # Store SRA accession argument
 import sys

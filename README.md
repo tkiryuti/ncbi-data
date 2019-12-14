@@ -1,4 +1,4 @@
-# ncbi-data
+# ncbi-extract
 Data extraction from NCBI based on Entrez Programming Utilities (https://www.ncbi.nlm.nih.gov/books/NBK179288/).
 
 # NCBI Extract Accessions (ncbi-extract-acc.sh)
